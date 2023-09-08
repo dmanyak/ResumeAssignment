@@ -1,0 +1,9 @@
+/* reset browser styles */
+img {
+    height: 500px;
+}
+body{
+    max-width: 1024px;
+    margin: auto;
+}
+
