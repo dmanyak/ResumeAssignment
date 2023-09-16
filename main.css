@@ -1,9 +1,84 @@
-/* reset browser styles */
+/* CSS HEX 
+https://coolors.co/122c34-a1b5d8-fffcf7-e26d5a-ff871f
+--gunmetal: #122C34;
+--powder-blue: #A1B5D8;
+--baby-powder: #FFFCF7;
+--burnt-sienna: #E26D5A;
+--ut-orange: #ff871f;
+*/
+
+/* Global styles
+----------------------------------*/
+h2{
+    margin:0;
+}
+.content-wrap{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+body {
+    color: #122C34;
+    margin:0;
+    padding:0;
+
+
+}
 img {
     height: 500px;
 }
-body{
-    max-width: 1024px;
-    margin: auto;
+
+/* INTRO
+----------------------------------*/
+header{
+    background:  #A1B5D8;
 }
 
+
+/* Projects
+----------------------------------*/
+.projects{
+    background: #FFFCF7;
+
+}
+
+/* Work Experience
+----------------------------------*/
+.workxp{
+    background: #E26D5A;
+    
+
+}
+/* Education
+----------------------------------*/
+
+/* Contact
+----------------------------------*/
+footer{
+background:#ff871f;
+color:#FFFCF7;
+}
+
+.projects a{
+    color: white;
+    text-decoration: none;
+    background-color: purple;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+.projects a:hover{
+    background-color: rgb(148, 73, 148);
+    color: white;
+
+}
+a{
+    display: inline-block;
+    color: white;
+    text-decoration: none
+}
+
+a:hover{
+    color: black;
+    
+}
